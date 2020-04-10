@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-print("Welcome to Covid-19 live updates")
+print("Welcome to Covid-19 live updates in India")
 website="https://www.worldometers.info/coronavirus/country/india/"
 a=requests.get(website)
 b=BeautifulSoup(a.text, "html.parser")
